@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>杀菌器-家用与商用杀菌消毒设备选购及使用指南</title>
+<meta name="description" content="杀菌器选购与使用指南，介绍紫外线、臭氧、高温、光触媒等杀菌原理，覆盖家用、水处理、食品、医疗等场景，并说明选型要点、安全注意事项与常见问题。">
+<meta name="keywords" content="杀菌器,消毒设备,紫外线杀菌器,臭氧杀菌器,家用杀菌器,水杀菌器,杀菌原理,选购指南">
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+<style>
+  :root{
+    --deep:#0b3c5d;
+    --teal:#1d7a8c;
+    --aqua:#3fb8af;
+    --mist:#eef7f9;
+    --line:#d3e5ea;
+    --ink:#1b2a33;
+    --sub:#5a727e;
+    --warm:#f4a259;
+    --white:#ffffff;
+    --radius:14px;
+    --shadow:0 6px 22px rgba(11,60,93,.08);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,sans-serif;
+    color:var(--ink);
+    background:var(--white);
+    line-height:1.75;
+    font-size:16px;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none;}
+  img{max-width:100%;display:block;}
+  .wrap{width:100%;max-width:1180px;margin:0 auto;padding:0 20px;}
+
+  /* 顶栏 */
+  .topbar{
+    background:var(--deep);
+    color:#cfe6ee;
+    font-size:13px;
+    letter-spacing:.4px;
+  }
+  .topbar .wrap{
+    display:flex;justify-content:space-between;align-items:center;
+    height:38px;flex-wrap:wrap;gap:6px;
+  }
+  .topbar span{opacity:.9;}
+  .topbar .tagline{color:var(--aqua);font-weight:600;}
+
+  /* 页眉 */
+  header.site-head{
+    background:linear-gradient(135deg,#0b3c5d 0%,#155d78 55%,#1d7a8c 100%);
+    color:#fff;
+    position:relative;
+    overflow:hidden;
+  }
+  header.site-head::after{
+    content:"";
+    position:absolute;right:-80px;top:-80px;
+    width:320px;height:320px;border-radius:50%;
+    background:radial-gradient(circle,rgba(63,184,175,.35),transparent 70%);
+  }
+  .head-inner{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:18px 0;position:relative;z-index:2;flex-wrap:wrap;gap:14px;
+  }
+  .logo{display:flex;align-items:center;gap:12px;}
+  .logo-mark{
+    width:44px;height:44px;border-radius:12px;
+    background:linear-gradient(140deg,var(--aqua),#7fe0d8);
+    display:flex;align-items:center;justify-content:center;
+    font-size:22px;font-weight:700;color:#0b3c5d;
+    box-shadow:0 4px 14px rgba(0,0,0,.18);
+  }
+  .logo-text strong{display:block;font-size:20px;letter-spacing:1px;}
+  .logo-text small{font-size:12px;color:#a9d6e0;letter-spacing:2px;}
+
+  nav.main-nav ul{display:flex;gap:26px;list-style:none;font-size:15px;}
+  nav.main-nav a{
+    padding:6px 0;position:relative;color:#e4f4f8;transition:color .2s;
+  }
+  nav.main-nav a::after{
+    content:"";position:absolute;left:0;bottom:0;height:2px;width:0;
+    background:var(--aqua);transition:width .25s;
+  }
+  nav.main-nav a:hover{color:#fff;}
+  nav.main-nav a:hover::after{width:100%;}
+
+  /* 首屏 */
+  .hero{
+    background:linear-gradient(180deg,#0e4a6b 0%,#125a7a 100%);
+    color:#fff;padding:52px 0 60px;position:relative;
+  }
+  .hero-grid{
+    display:grid;grid-template-columns:1.15fr .85fr;gap:44px;align-items:center;
+  }
+  .hero h1{
+    font-size:36px;line-height:1.35;font-weight:700;letter-spacing:.5px;
+    margin-bottom:18px;
+  }
+  .hero h1 em{
+    font-style:normal;color:var(--aqua);
+    border-bottom:3px solid rgba(63,184,175,.5);
+  }
+  .hero p.lead{
+    font-size:16.5px;color:#cbe6ee;max-width:620px;margin-bottom:26px;
+  }
+  .hero-actions{display:flex;gap:14px;flex-wrap:wrap;}
+  .btn{
+    display:inline-block;padding:12px 26px;border-radius:30px;
+    font-size:15px;font-weight:600;transition:transform .2s,box-shadow .2s;
+    border:1px solid transparent;cursor:pointer;
+  }
+  .btn-primary{background:var(--aqua);color:#08303f;box-shadow:0 6px 18px rgba(63,184,175,.35);}
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(63,184,175,.45);}
+  .btn-ghost{border-color:rgba(255,255,255,.5);color:#fff;}
+  .btn-ghost:hover{background:rgba(255,255,255,.12);}
+
+  .hero-side{
+    display:grid;gap:14px;
+  }
+  .hero-card{
+    background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.16);
+    border-radius:var(--radius);
+    padding:18px 20px;
+    backdrop-filter:blur(4px);
+  }
+  .hero-card h3{font-size:15px;color:var(--aqua);margin-bottom:6px;letter-spacing:.5px;}
+  .hero-card p{font-size:13.5px;color:#cfe6ee;line-height:1.65;}
+
+  /* 通用区块 */
+  section{padding:64px 0;}
+  .sec-head{margin-bottom:34px;}
+  .sec-head .kicker{
+    display:inline-block;font-size:13px;font-weight:700;letter-spacing:2px;
+    color:var(--teal);background:var(--mist);border-radius:20px;
+    padding:4px 14px;margin-bottom:12px;
+  }
+  .sec-head h2{font-size:27px;line-height:1.4;letter-spacing:.4px;}
+  .sec-head p{color:var(--sub);margin-top:10px;max-width:760px;font-size:15.5px;}
+
+  /* 原理卡片 */
+  .principle-grid{
+    display:grid;grid-template-columns:repeat(4,1fr);gap:20px;
+  }
+  .p-card{
+    background:var(--white);border:1px solid var(--line);border-radius:var(--radius);
+    padding:26px 22px;box-shadow:var(--shadow);transition:transform .25s,border-color .25s;
+  }
+  .p-card:hover{transform:translateY(-4px);border-color:var(--aqua);}
+  .p-icon{
+    width:46px;height:46px;border-radius:12px;margin-bottom:16px;
+    display:flex;align-items:center;justify-content:center;
+    font-size:20px;font-weight:700;color:#0b3c5d;
+    background:linear-gradient(140deg,#d7f2ef,#a8e3dc);
+  }
+  .p-card h3{font-size:17px;margin-bottom:8px;}
+  .p-card p{font-size:14px;color:var(--sub);}
+  .p-card .note{
+    display:block;margin-top:12px;font-size:12.5px;color:var(--teal);
+    border-top:1px dashed var(--line);padding-top:10px;
+  }
+
+  /* 场景 */
+  .scene{background:var(--mist);}
+  .scene-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+  .s-card{
+    background:#fff;border-radius:var(--radius);padding:26px 24px;
+    border-left:4px solid var(--aqua);box-shadow:var(--shadow);
+  }
+  .s-card h3{font-size:17px;margin-bottom:10px;display:flex;align-items:center;gap:8px;}
+  .s-card h3 i{
+    font-style:normal;font-size:12px;background:var(--mist);color:var(--teal);
+    border-radius:6px;padding:2px 8px;font-weight:600;
+  }
+  .s-card ul{list-style:none;font-size:14px;color:var(--sub);}
+  .s-card li{padding-left:16px;position:relative;margin-bottom:6px;}
+  .s-card li::before{
+    content:"";position:absolute;left:0;top:11px;
+    width:6px;height:6px;border-radius:50%;background:var(--aqua);
+  }
+
+  /* 选购指南 */
+  .guide-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;}
+  .guide-item{
+    display:flex;gap:16px;padding:20px 0;border-bottom:1px dashed var(--line);
+  }
+  .guide-item:last-child{border-bottom:none;}
+  .guide-num{
+    flex:0 0 40px;height:40px;border-radius:50%;
+    background:var(--deep);color:#fff;font-weight:700;font-size:15px;
+    display:flex;align-items:center;justify-content:center;
+  }
+  .guide-item h3{font-size:16.5px;margin-bottom:6px;}
+  .guide-item p{font-size:14px;color:var(--sub);}
+
+  .guide-aside{
+    background:linear-gradient(160deg,#0b3c5d,#1d7a8c);
+    border-radius:var(--radius);padding:30px 28px;color:#fff;height:100%;
+  }
+  .guide-aside h3{font-size:19px;margin-bottom:16px;color:#fff;}
+  .guide-aside ul{list-style:none;font-size:14.5px;}
+  .guide-aside li{
+    padding:11px 0;border-bottom:1px solid rgba(255,255,255,.15);
+    color:#d6ecf2;display:flex;gap:10px;
+  }
+  .guide-aside li:last-child{border-bottom:none;}
+  .guide-aside li span{color:var(--aqua);font-weight:700;}
+  .guide-aside .tip{
+    margin-top:18px;font-size:13px;color:#a9d6e0;line-height:1.7;
+    background:rgba(255,255,255,.08);border-radius:10px;padding:12px 14px;
+  }
+
+  /* 安全提示 */
+  .safety{background:#fff8f0;border-top:1px solid #f3e0c9;border-bottom:1px solid #f3e0c9;}
+  .safety-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+  .safe-card{
+    background:#fff;border-radius:var(--radius);padding:24px;
+    border:1px solid #f0dfc8;
+  }
+  .safe-card h3{
+    font-size:16px;color:#a45a12;margin-bottom:10px;
+    display:flex;align-items:center;gap:8px;
+  }
+  .safe-card h3::before{
+    content:"!";display:inline-flex;align-items:center;justify-content:center;
+    width:20px;height:20px;border-radius:50%;background:var(--warm);color:#fff;
+    font-size:13px;font-weight:700;
+  }
+  .safe-card p{font-size:14px;color:#6b5a45;}
+
+  /* FAQ */
+  .faq-list{max-width:900px;}
+  .faq-item{
+    border:1px solid var(--line);border-radius:12px;margin-bottom:12px;
+    overflow:hidden;background:#fff;
+  }
+  .faq-item summary{
+    cursor:pointer;padding:16px 20px;font-weight:600;font-size:15.5px;
+    list-style:none;display:flex;justify-content:space-between;align-items:center;
+    color:var(--deep);
+  }
+  .faq-item summary::-webkit-details-marker{display:none;}
+  .faq-item summary::after{
+    content:"+";font-size:20px;color:var(--aqua);font-weight:400;
+    transition:transform .2s;
+  }
+  .faq-item[open] summary::after{content:"−";}
+  .faq-item .faq-body{
+    padding:0 20px 18px;font-size:14.5px;color:var(--sub);
+  }
+
+  /* 页脚 */
+  footer.site-foot{
+    background:#082c43;color:#9dbfcc;padding:48px 0 24px;font-size:14px;
+  }
+  .foot-grid{
+    display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px;
+    padding-bottom:32px;border-bottom:1px solid rgba(255,255,255,.12);
+  }
+  .foot-grid h4{color:#fff;font-size:15px;margin-bottom:14px;letter-spacing:.5px;}
+  .foot-grid ul{list-style:none;}
+  .foot-grid li{margin-bottom:8px;}
+  .foot-grid a:hover{color:var(--aqua);}
+  .foot-brand p{line-height:1.8;font-size:13.5px;color:#8fb2c0;max-width:320px;}
+  .foot-brand .logo-text strong{color:#fff;}
+  .foot-bottom{
+    padding-top:20px;display:flex;justify-content:space-between;
+    flex-wrap:wrap;gap:10px;font-size:13px;color:#7d9dab;
+  }
+
+  /* 响应式 */
+  @media (max-width:1024px){
+    .principle-grid{grid-template-columns:repeat(2,1fr);}
+    .scene-grid{grid-template-columns:repeat(2,1fr);}
+    .hero-grid{grid-template-columns:1fr;gap:30px;}
+    .guide-grid{grid-template-columns:1fr;}
+    .safety-grid{grid-template-columns:repeat(2,1fr);}
+    .foot-grid{grid-template-columns:1fr 1fr;}
+  }
+  @media (max-width:640px){
+    body{font-size:15px;}
+    .topbar .wrap{height:auto;padding:8px 20px;justify-content:center;text-align:center;}
+    .head-inner{padding:14px 0;}
+    nav.main-nav ul{gap:16px;font-size:14px;flex-wrap:wrap;}
+    .hero{padding:38px 0 44px;}
+    .hero h1{font-size:26px;}
+    .hero p.lead{font-size:15px;}
+    section{padding:44px 0;}
+    .sec-head h2{font-size:22px;}
+    .principle-grid{grid-template-columns:1fr;}
+    .scene-grid{grid-template-columns:1fr;}
+    .safety-grid{grid-template-columns:1fr;}
+    .foot-grid{grid-template-columns:1fr;gap:24px;}
+    .btn{padding:11px 22px;font-size:14px;}
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <span>杀菌消毒设备知识站 · 原理 · 选型 · 使用维护</span>
+    <span class="tagline">按需选择，不盲目追求“全场景”</span>
+  </div>
+</div>
+
+<header class="site-head">
+  <div class="wrap head-inner">
+    <div class="logo">
+      <div class="logo-mark">杀</div>
+      <div class="logo-text">
+        <strong>杀菌器指南</strong>
+        <small>STERILIZER GUIDE</small>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#principle">杀菌原理</a></li>
+        <li><a href="#scene">应用场景</a></li>
+        <li><a href="#guide">选购要点</a></li>
+        <li><a href="#safety">安全提示</a></li>
+        <li><a href="#faq">常见问题</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- 首屏 -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>杀菌器怎么选：先弄清<em>杀菌对象</em>与<em>使用场景</em></h1>
+        <p class="lead">
+          杀菌器是一个统称，紫外线、臭氧、高温、光触媒等不同技术对应的适用对象、作用时间和安全要求差别很大。
+          选型时先明确要处理的是空气、水、物体表面还是食品包装，再对比技术路线与安装条件，通常比单纯比较价格更有效。
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#guide">查看选购要点</a>
+          <a class="btn btn-ghost" href="#principle">了解杀菌原理</a>
+        </div>
+      </div>
+      <aside class="hero-side">
+        <div class="hero-card">
+          <h3>先定对象</h3>
+          <p>空气、饮用水、污水、餐具、果蔬、包装材料，对应的设备结构与法规要求并不相同。</p>
+        </div>
+        <div class="hero-card">
+          <h3>再看条件</h3>
+          <p>电源、水压、流量、空间体积、是否有人在场，都会直接影响能否安全使用。</p>
+        </div>
+        <div class="hero-card">
+          <h3>最后比参数</h3>
+          <p>关注有效剂量、处理量、灯管或耗材寿命，而不是只看功率数字大小。</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 杀菌原理 -->
+  <section id="principle">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="kicker">杀菌原理</span>
+        <h2>常见的四类杀菌技术及其适用边界</h2>
+        <p>不同技术对微生物的作用方式不同，穿透能力、残留情况和适用介质也各不相同。理解原理有助于判断某类设备是否真的适合你的需求。</p>
+      </div>
+      <div class="principle-grid">
+        <article class="p-card">
+          <div class="p-icon">UV</div>
+          <h3>紫外线杀菌</h3>
+          <p>利用特定波段的紫外线破坏微生物的核酸结构，使其失去繁殖能力。属于物理方式，一般不产生化学残留。</p>
+          <span class="note">穿透力有限，被遮挡的部位效果会明显下降。</span>
+        </article>
+        <article class="p-card">
+          <div class="p-icon">O₃</div>
+          <h3>臭氧杀菌</h3>
+          <p>臭氧具有强氧化性，可作用于空气和水中微生物，并有一定去除异味的作用，扩散性较好。</p>
+          <span class="note">需充分通风或等待分解，人员不宜在场长时间接触。</span>
+        </article>
+        <article class="p-card">
+          <div class="p-icon">℃</div>
+          <h3>高温杀菌</h3>
+          <p>通过热水、蒸汽或干热使微生物蛋白质变性，常见于餐具、奶瓶、部分食品加工环节。</p>
+          <span class="note">对耐热材料和物品有要求，能耗相对较高。</span>
+        </article>
+        <article class="p-card">
+          <div class="p-icon">TiO₂</div>
+          <h3>光触媒与过滤</h3>
+          <p>光触媒在光照条件下产生氧化性物质，常与滤网、活性炭组合，用于空气净化类设备。</p>
+          <span class="note">多作为辅助手段，需配合滤材更换维护。</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 应用场景 -->
+  <section id="scene" class="scene">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="kicker">应用场景</span>
+        <h2>不同场景对杀菌器的要求差异很大</h2>
+        <p>同一个名称下，家用小设备与工业级设备的处理量、结构、控制方式完全不同。按场景对照，能更快缩小选择范围。</p>
+      </div>
+      <div class="scene-grid">
+        <article class="s-card">
+          <h3>家庭日常 <i>小处理量</i></h3>
+          <ul>
+            <li>餐具、奶瓶、毛巾等小件物品</li>
+            <li>关注操作简便与安全联锁</li>
+            <li>空间有限，优先考虑台式或壁挂式</li>
+            <li>注意儿童误触防护</li>
+          </ul>
+        </article>
+        <article class="s-card">
+          <h3>饮用水处理 <i>连续运行</i></h3>
+          <ul>
+            <li>常采用过流式紫外线杀菌器</li>
+            <li>需匹配水流量与管路接口</li>
+            <li>前置过滤会影响透光效果</li>
+            <li>定期更换灯管与清洗石英套管</li>
+          </ul>
+        </article>
+        <article class="s-card">
+          <h3>食品与餐饮 <i>规范要求</i></h3>
+          <ul>
+            <li>涉及加工用水、工器具与包装</li>
+            <li>需符合相关卫生规范要求</li>
+            <li>关注清洁便利与耐腐蚀材质</li>
+            <li>建议保留运行与维护记录</li>
+          </ul>
+        </article>
+        <article class="s-card">
+          <h3>空气与空间 <i>动态环境</i></h3>
+          <ul>
+            <li>用于室内空气循环处理</li>
+            <li>需结合房间体积计算适用面积</li>
+            <li>有人环境应选择无臭氧或低臭氧型</li>
+            <li>滤网类耗材需按期更换</li>
+          </ul>
+        </article>
+        <article class="s-card">
+          <h3>水产与养殖 <i>水体处理</i></h3>
+          <ul>
+            <li>用于循环水或进水杀菌</li>
+            <li>需考虑水量、浊度与流速</li>
+            <li>设备需适应潮湿环境</li>
+            <li>与水处理工艺配合使用</li>
+          </ul>
+        </article>
+        <article class="s-card">
+          <h3>医疗与实验室 <i>专业管理</i></h3>
+          <ul>
+            <li>对杀菌效果验证要求更高</li>
+            <li>需按机构规程进行监测</li>
+            <li>设备选型通常有明确标准</li>
+            <li>由专业人员负责操作维护</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 选购要点 -->
+  <section id="guide">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="kicker">选购要点</span>
+        <h2>把需求拆成可核对的指标</h2>
+        <p>选购时容易被“杀菌率”之类的宣传语吸引，但实际效果取决于剂量、接触时间、介质状态等多个条件。下面几项更值得逐条确认。</p>
+      </div>
+      <div class="guide-grid">
+        <div>
+          <div class="guide-item">
+            <div class="guide-num">1</div>
+            <div>
+              <h3>明确处理对象与介质</h3>
+              <p>处理水、空气还是固体表面，会直接决定技术路线。水中悬浮物多、空气流动快，都会削弱实际作用效果。</p>
+            </div>
+          </div>
+          <div class="guide-item">
+            <div class="guide-num">2</div>
+            <div>
+              <h3>核对处理量与停留时间</h3>
+              <p>过流式设备要匹配流量，空间设备要匹配体积。处理量不足时，即使功率标注很高，实际接触时间也可能不够。</p>
+            </div>
+          </div>
+          <div class="guide-item">
+            <div class="guide-num">3</div>
+            <div>
+              <h3>关注耗材与维护成本</h3>
+              <p>灯管、滤芯、石英套管等属于定期更换件，其价格与更换周期会影响长期使用成本，建议提前了解。</p>
+            </div>
+          </div>
+          <div class="guide-item">
+            <div class="guide-num">4</div>
+            <div>
+              <h3>确认安全设计</h3>
+              <p>紫外线设备应有遮光与联锁结构，臭氧设备应具备通风或分解措施，高温设备需有防烫与定时保护。</p>
+            </div>
+          </div>
+          <div class="guide-item">
+            <div class="guide-num">5</div>
+            <div>
+              <h3>查看资质与说明文件</h3>
+              <p>涉及饮用水、食品、医疗等场景时，应确认产品具备相应检测报告或卫生许可类文件，并保留购买凭证。</p>
+            </div>
+          </div>
+          <div class="guide-item">
+            <div class="guide-num">6</div>
+            <div>
+              <h3>考虑安装与售后条件</h3>
+              <p>管路接口、电源位置、安装空间、维修响应速度，都会影响实际使用体验，选购前应一并评估。</p>
+            </div>
+          </div>
+        </div>
+        <aside class="guide-aside">
+          <h3>选型前的自查清单</h3>
+          <ul>
+            <li><span>处理对象</span>水 / 空气 / 表面 / 食品</li>
+            <li><span>处理规模</span>每小时或每次的处理量</li>
+            <li><span>使用环境</span>是否有人在场、是否潮湿</li>
+            <li><span>安装条件</span>管径、水压、电源、空间</li>
+            <li><span>维护能力</span>能否定期更换耗材</li>
+            <li><span>合规要求</span>是否需要检测报告</li>
+          </ul>
+          <div class="tip">
+            提示：如果商家只强调单一“杀菌率”数字，而没有说明测试条件、介质和处理时间，这个数字的参考价值是有限的。
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- 安全提示 -->
+  <section id="safety" class="safety">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="kicker">安全提示</span>
+        <h2>杀菌设备本身也需要被正确对待</h2>
+        <p>紫外线、臭氧和高温都存在一定的使用风险，规范操作比设备参数更影响安全。</p>
+      </div>
+      <div class="safety-grid">
+        <div class="safe-card">
+          <h3>避免紫外线直射</h3>
+          <p>紫外线可损伤眼睛和皮肤，工作时不要直视灯管，也不要长时间停留在无遮挡的照射区域内。</p>
+        </div>
+        <div class="safe-card">
+          <h3>臭氧需充分分解</h3>
+          <p>臭氧房间消毒后应通风，待浓度降至安全水平再进入；有人的密闭空间不宜长时间开启臭氧设备。</p>
+        </div>
+        <div class="safe-card">
+          <h3>高温设备防烫伤</h3>
+          <p>取放物品时注意蒸汽和高温表面，设备应放置在儿童不易触及的位置，并按说明控制加热时间。</p>
+        </div>
+        <div class="safe-card">
+          <h3>定期清洁与更换</h3>
+          <p>石英套管表面结垢、滤网积尘都会降低效果，应按说明清洁，并按时更换灯管或滤芯。</p>
+        </div>
+        <div class="safe-card">
+          <h3>断电后再维护</h3>
+          <p>清洁、更换耗材或移动设备前，先切断电源，避免误启动造成伤害或设备损坏。</p>
+        </div>
+        <div class="safe-card">
+          <h3>不替代必要工艺</h3>
+          <p>杀菌器通常作为某一环节的处理手段，不能替代清洗、过滤等前置步骤，也不应替代必要的医疗措施。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="kicker">常见问题</span>
+        <h2>关于杀菌器的高频疑问</h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item" open>
+          <summary>杀菌器能杀死所有微生物吗？</summary>
+          <div class="faq-body">
+            通常不能一概而论。杀菌效果取决于技术类型、作用剂量、接触时间以及介质状态。不同微生物对同一种处理方式的耐受程度存在差异，实际效果应以规范条件下的检测结果为准，而不是简单理解为“全部杀灭”。
+          </div>
+        </details>
+        <details class="faq-item">
+          <summary>紫外线杀菌器需要一直开着吗？</summary>
+          <div class="faq-body">
+            是否连续运行取决于使用场景。水处理类设备常与用水过程联动，空气类设备可按房间使用情况安排。长时间运行会增加耗材损耗和能耗，建议按照说明书与厂家建议的间歇或联动方式使用。
+          </div>
+        </details>
+        <details class="faq-item">
+          <summary>灯管没坏就说明还有杀菌效果吗？</summary>
+          <div class="faq-body">
+            不一定。紫外线灯管随着使用时间增加，输出强度会逐渐衰减，外观上可能看不出明显变化。因此应按照厂家给出的更换周期进行更换，有条件时可使用强度检测手段进行确认。
+          </div>
+        </details>
+        <details class="faq-item">
+          <summary>家用杀菌器可以处理饮用水吗？</summary>
+          <div class="faq-body">
+            需要区分产品类型。只有明确标注可用于饮用水处理、并具备相应检测或卫生许可文件的产品，才适合用于饮用水场景。普通用于物体表面或空气的设备，不应直接用于饮用水处理。
+          </div>
+        </details>
+        <details class="faq-item">
+          <summary>臭氧杀菌后多久可以进入房间？</summary>
+          <div class="faq-body">
+            与房间体积、臭氧产生量、通风条件有关，没有统一固定时间。一般应在停止产生臭氧后充分通风，待刺激性气味明显消散、浓度降至安全范围后再进入，必要时使用检测方式确认。
+          </div>
+        </details>
+        <details class="faq-item">
+          <summary>杀菌器可以替代清洗吗？</summary>
+          <div class="faq-body">
+            不能。污垢、油渍和有机物会遮挡或消耗杀菌作用，降低处理效果。通常应先完成清洗，再进行杀菌处理，两者是配合关系而非互相替代。
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="logo" style="margin-bottom:14px;">
+          <div class="logo-mark">杀</div>
+          <div class="logo-text">
+            <strong>杀菌器指南</strong>
+            <small>STERILIZER GUIDE</small>
+          </div>
+        </div>
+        <p>围绕杀菌消毒设备整理原理、场景、选型与维护方面的通用知识，帮助读者在了解技术边界的前提下做出合适的选择。</p>
+      </div>
+      <div>
+        <h4>内容导航</h4>
+        <ul>
+          <li><a href="#principle">杀菌原理</a></li>
+          <li><a href="#scene">应用场景</a></li>
+          <li><a href="#guide">选购要点</a></li>
+          <li><a href="#safety">安全提示</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>技术类型</h4>
+        <ul>
+          <li><a href="#principle">紫外线杀菌</a></li>
+          <li><a href="#principle">臭氧杀菌</a></li>
+          <li><a href="#principle">高温杀菌</a></li>
+          <li><a href="#principle">光触媒与过滤</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>使用建议</h4>
+        <ul>
+          <li><a href="#faq">常见问题</a></li>
+          <li><a href="#safety">维护与更换</a></li>
+          <li><a href="#guide">选型自查清单</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>本页内容为通用知识整理，具体产品请以厂家说明与相关规范为准。</span>
+      <span>杀菌器指南 · 信息参考</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+  </html>
